@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
 
-const PORTA = 9000;
+const PORTA = 9001;
 
 const pages = ['inicio', 'contato', 'formacao', 'habilidades', 'projetos', 'privacidade'];
 
@@ -79,7 +79,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'),
+      directory: path.resolve(__dirname, 'docs'),
     },
     port: PORTA,
     open: true,
