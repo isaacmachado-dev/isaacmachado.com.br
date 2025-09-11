@@ -1,0 +1,41 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>
+    <loc>https://isaacmachado.com.br/</loc>
+    <lastmod>2025-07-16T15:48:00-03:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://isaacmachado.com.br/habilidades/</loc>
+    <lastmod>2025-07-16T15:48:00-03:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://isaacmachado.com.br/projetos/</loc>
+    <lastmod>2025-07-16T15:48:00-03:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://isaacmachado.com.br/formacao/</loc>
+    <lastmod>2025-07-16T15:48:00-03:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://isaacmachado.com.br/contato/</loc>
+    <lastmod>2025-07-16T15:48:00-03:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://isaacmachado.com.br/privacidade/</loc>
+    <lastmod>2025-07-16T15:48:00-03:00</lastmod>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>
