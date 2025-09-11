@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
 
-const PORTA = 9001;
+const PORTA = 9000;
 
 const pages = ['inicio', 'contato', 'formacao', 'habilidades', 'projetos', 'privacidade'];
 
