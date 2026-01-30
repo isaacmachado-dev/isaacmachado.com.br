@@ -18,30 +18,45 @@
 }
 
 .hidden-img {
-  opacity: 0;
-  transform: scale(0.95);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 /* Ao carregar, vira visível com tamanho normal */
 .visible-img {
-  opacity: 1;
-  transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
 }
 
 .homescreen-container .right {
     min-height: 160px;
 }
 
+
+.homescreen-container p {
+    margin-left: 20%;
+    width: fit-content;
+    /* Largura só do texto! */
+    max-width: 450px;
+    /* Limite pra não explodir */
+    white-space: nowrap;
+    /* Texto em linha única */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* ... se muito longo */
+}
+
+
 #profile-img {
-  opacity: 0;
-  transform: scale(0.95);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
 #profile-img.visible {
-  opacity: 1;
-  transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
 }
 
 .homescreen-container .right h1 {
@@ -199,8 +214,8 @@
 .acordeon-content-container {
     display: grid;
     /* Começa com a linha do grid tendo altura zero (0fr) */
-    grid-template-rows: 0fr; 
-    
+    grid-template-rows: 0fr;
+
     /* A transição agora é na propriedade grid-template-rows */
     transition: grid-template-rows 0.5s ease-in-out;
 }
@@ -211,6 +226,3 @@
     /* A linha do grid se expande para 1 fração, que é a altura total do conteúdo. */
     grid-template-rows: 1fr;
 }
-
-
-
